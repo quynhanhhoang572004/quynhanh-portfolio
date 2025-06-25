@@ -2,7 +2,7 @@ import * as motion from "motion/react-client";
 export const HeroContent = () => {
   return (
     <section className="relative w-full h-screen">
-      <div>
+      <div className="-mt-20">
         <motion.h1
           className="absolute font-gaeilge text-[#254883] text-[300px] leading-[345px] text-center text-transform: lowercase font-normal z-0"
           style={{
@@ -107,9 +107,25 @@ export const HeroContent = () => {
         </motion.div>
       </div>
       <div>
-             <img src="/v40.svg"  className=" -ml-20" />
-
+        <img src="/v40.svg" className=" -ml-20" />
       </div>
+      <motion.h6
+        className="absolute font-gaeilge text-[#254883] text-2xl leading-[345px] text-center capitalize font-normal  z-0"
+        style={{
+          
+     
+          left: "844.66px",
+          top: "370.55px"
+        }}
+        initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.4,
+            scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+          }}
+      >
+        Hoang Ngoc Quynh anh - AI Engineer
+      </motion.h6>
     </section>
   );
 };
