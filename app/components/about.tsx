@@ -1,4 +1,8 @@
+'use client';
+
 import * as motion from "motion/react-client";
+import { Linkedin, Github, Phone, Mail } from "lucide-react";
+import {Button, ButtonGroup} from "@heroui/button";
 
 export const AboutContent = () => {
   return (
@@ -33,70 +37,159 @@ export const AboutContent = () => {
           ))}
         </motion.div>
       </div>
-
-      <div>
-        <h3
-          className="absolute font-gaeilge text-[#254883] text-[70px] text-left lowercase font-normal"
-          style={{
-            left: "92.2px",
-            top: "810px", 
-          }}
-        >
-          Hello, I am Quynh Anh
-        </h3>
-
+      <div className=" grid grid-cols-2 gap-4">
         <div>
-          <img src="/star6.svg" className=" -mt-13 -ml-15" />
-        </div>
-        <div>
-          <img src="/star9.svg" className=" -mt-5 -ml-16" />
-        </div>
-
-        <div
-          className="absolute border-t-2 border-[#EC7696]"
-          style={{
-            width: "680.29px",
-            height: "0px",
-            left: "66.16px",
-            top: "900px", 
-          }}
-        />
-
-        <div
-          className="absolute"
-          style={{
-            left: "92.2px",
-            top: "930px", 
-          }}
-        >
-          <p
-            className="font-poppins font-medium text-[20px] leading-relaxed"
+          <h3
+            className="absolute font-gaeilge text-[#254883] text-[70px] text-left lowercase font-normal"
             style={{
-              width: "700px",
+              left: "92.2px",
+              top: "810px",
             }}
           >
-            a junior majoring in Computer Science at International University –
-            VNU-HCMC, with a strong passion for both Machine Learning and
-            Front-End Development. I enjoy solving real-world problems through
-            data science and AI and also love crafting interactive,
-            user-friendly web interfaces. I'm currently seeking an internship in
-            both AI/ML field and web development fields where I can apply my
-            knowledge to real-world projects and continue learning in a dynamic
-            environment.
-          </p>
-        </div>
-      </div>
+            Hello, I am Quynh Anh
+          </h3>
 
-      <div className="mt-70">
-        <h4
-          className="absolute font-gaeilge text-[#254883] text-[40px] text-left lowercase font-normal"
-          style={{
-            left: "92.2px",
-            top: "1160px", 
-          }}
-        >
+          <div>
+            <img src="/star6.svg" className=" -mt-13 -ml-15" />
+          </div>
+          <div>
+            <img src="/star9.svg" className=" -mt-5 -ml-16" />
+          </div>
+
+          <div
+            className="absolute border-t-2 border-[#EC7696]"
+            style={{
+              width: "680.29px",
+              height: "0px",
+              left: "66.16px",
+              top: "900px",
+            }}
+          />
+
+          <div
+            className="absolute"
+            style={{
+              left: "92.2px",
+              top: "930px",
+            }}
+          >
+            <p
+              className="font-poppins font-medium text-[20px] leading-relaxed"
+              style={{
+                width: "700px",
+              }}
+            >
+              a junior majoring in Computer Science at International University
+              – VNU-HCMC, with a strong passion for both Machine Learning and
+              Front-End Development. I enjoy solving real-world problems through
+              data science and AI and also love crafting interactive,
+              user-friendly web interfaces. I'm currently seeking an internship
+              in both AI/ML field and web development fields where I can apply
+              my knowledge to real-world projects and continue learning in a
+              dynamic environment.
+            </p>
+          </div>
+        </div>
+        <div>
+        
+          <div
+            className="absolute ml-20"
+            style={{
+              width: "428.49px",
+              height: "428.49px",
+              left: " 977.76px",
+              top: "1210.37",
+              border: "3px solid #254883",
+              zIndex: 1
+            }}
+          >
+            <img src="qanh1.svg" />
+          </div>
+          <div
+            className="absolute -mt-85 ml-20"
+            style={{
+              width: "428.49px",
+              height: "428.49px",
+              left: "963.78px",
+              top: "1193.54px",
+              border: "3px solid #EC7696",
+              zIndex: 2
+            }}
+          />
+            <div className="ml-40"
+            style={{
+              zIndex: 3
+            }}>
+            <img src="star7.svg"/>
+          </div>
+           <div style={{zIndex: 3}} className="mt-65 ml-145 absolute ">
+            <img src="star8.svg"/>
+          </div>
+          <div
+    className="absolute mt-100 ml-105"
+    style={{
+     
+      zIndex: 4,
+    }}
+  >
+<Button
+  className="bg-[#EC7696] text-white rounded-md px-6 py-3 text-lg"
+  size="md"
+  onClick={() => {
+    window.open('/document/Hoàng Ngọc Quỳnh Anh_SE_CV.pdf', '_blank');
+  }}
+>
+  Hire Me
+</Button>
+
+
+  </div>
+        </div>
+        
+      </div>
+      
+
+      <div
+        className="absolute"
+        style={{
+          left: "92.2px",
+          top: "1160px",
+        }}
+      >
+        <h4 className="font-gaeilge text-[#254883] text-[40px] lowercase font-normal mt-4">
           Contacts
         </h4>
+        <div className="mt-4 grid grid-cols-2 gap-4">
+          <div className="mt-4 flex items-center space-x-3">
+            <Linkedin color="#EC7696" size={32} />
+            <span className="text-[#254883] text-lg font-poppins">
+              <a href="https://www.linkedin.com/in/quynhanh572004/">
+                linkedin.com/in/quynhanhhoang572004
+              </a>
+            </span>
+          </div>
+          <div className="mt-4 flex items-center space-x-3">
+            <Phone color="#EC7696" size={32} />
+            <span className="text-[#254883] text-lg font-poppins">
+              0888621830
+            </span>
+          </div>
+          <div className="mt-4 flex items-center space-x-3">
+            <Github color="#EC7696" size={32} />
+            <span className="text-[#254883] text-lg font-poppins">
+              <a href="https://github.com/quynhanhhoang572004">
+                quynhanhhoang572004
+              </a>
+            </span>
+          </div>
+
+          <div className="mt-4 flex items-center space-x-3">
+            <Mail color="#EC7696" size={32} />
+            <span className="text-[#254883] text-lg font-poppins">
+              quynhanhhoang572004@gmail.com
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
