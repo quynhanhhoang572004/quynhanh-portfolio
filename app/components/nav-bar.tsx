@@ -7,7 +7,7 @@ export const NavHeaderBar = () => {
   return (
     <Navbar
       isBordered
-      className="bg-[#EDEAE3]/80 backdrop-blur-md text-[#1F2A52] font-bold tracking-wide mt-5"
+      className="backdrop-blur-md text-[#1F2A52] font-bold tracking-wide mt-5"
       maxWidth="full"
     >
       <NavbarContent className="gap-4" justify="start">
