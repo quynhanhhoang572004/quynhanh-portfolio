@@ -17,6 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Quynh Anh's portfolio",
   description: "Quynh Anh's portfolio",
+   icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg", sizes: "32x32" }, 
+    ],
+  },
 };
 
 export default function RootLayout({

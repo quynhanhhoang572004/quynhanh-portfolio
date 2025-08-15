@@ -3,6 +3,7 @@ import { NavHeaderBar } from "./components/nav-bar";
 import { HeroContent } from "./components/hero-content";
 import { AboutContent } from "./components/about";
 import { ContactContent } from "./components/contact";
+import { ResumeSection } from "./components/resume";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroContent/>
       <AboutContent/>
       <ContactContent/>
+      <ResumeSection/>
       </main>
     </div>
   );
