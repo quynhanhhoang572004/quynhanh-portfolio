@@ -4,6 +4,7 @@ import { HeroContent } from "./components/hero-content";
 import { AboutContent } from "./components/about";
 import { ContactContent } from "./components/contact";
 import { ResumeSection } from "./components/resume";
+import { ProjectSection } from "./components/project";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutContent/>
       <ContactContent/>
       <ResumeSection/>
+      <ProjectSection/>
       </main>
     </div>
   );
