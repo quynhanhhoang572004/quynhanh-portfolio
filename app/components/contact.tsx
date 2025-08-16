@@ -1,8 +1,7 @@
 'use client';
 
-import * as motion from "motion/react-client";
 import { Linkedin, Github, Phone, Mail } from "lucide-react";
-import {Button, ButtonGroup} from "@heroui/button";
+
 
 export const ContactContent = () =>{
     return (
