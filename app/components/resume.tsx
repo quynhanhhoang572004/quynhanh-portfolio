@@ -42,7 +42,7 @@ export const ResumeSection = () => {
       subtitle1: "Bachelor of Science in Computer Science",
       location: "at International University",
       time: "(9/2022 - Present)",
-      gpa: "GPA: 3.3",
+      gpa: "GPA: 3.28",
       icon: "/star15.svg",
     },
     {
