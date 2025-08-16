@@ -73,20 +73,19 @@ export const AboutContent = () => {
             }}
           >
             <p
-              className="font-poppins font-medium text-[20px] leading-relaxed"
-              style={{
-                width: "700px",
-              }}
-            >
-              a junior majoring in Computer Science at International University
-              – VNU-HCMC, with a strong passion for both Machine Learning and
-              Front-End Development. I enjoy solving real-world problems through
-              data science and AI and also love crafting interactive,
-              user-friendly web interfaces. I'm currently seeking an internship
-              in both AI/ML field and web development fields where I can apply
-              my knowledge to real-world projects and continue learning in a
-              dynamic environment.
-            </p>
+  className="font-poppins font-medium text-[20px] leading-relaxed"
+  style={{ width: "700px" }}
+>
+  a junior majoring in Computer Science at International University
+  – VNU-HCMC, with a strong passion for both Machine Learning and
+  Front-End Development. I enjoy solving real-world problems through
+  data science and AI and also love crafting interactive,
+  user-friendly web interfaces. I&apos;m currently seeking an internship
+  in both AI/ML field and web development fields where I can apply
+  my knowledge to real-world projects and continue learning in a
+  dynamic environment.
+</p>
+
           </div>
         </div>
         <div>
